@@ -109,7 +109,6 @@ public class SecurityConfig {
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
                 .redirectUri("http://127.0.0.1:8080/login/oauth2/code/client-app")
                 .redirectUri("http://127.0.0.1:8080/authorized")
-                .redirectUri("http://127.0.0.1:8080/pokemon/ditto")
                 .postLogoutRedirectUri("http://127.0.0.1:8080/logout")
                 .scope("read")
                 .scope("write")
